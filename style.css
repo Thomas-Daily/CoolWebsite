@@ -1,0 +1,68 @@
+:root{
+  --primary: rgb(237, 132, 71);
+}
+
+html{
+  background-color: rgb(238, 222, 6);
+}
+.BL{
+  background-color: blueviolet;
+  height: 1.5rem;
+  width: 100%;
+}
+
+header{
+  background-color: var(--primary);
+  text-align: center;
+}
+
+.custom{
+  margin-top: 0;
+}
+
+.center{
+  /* text-align: center;
+  margin-right: 5rem;
+  margin-left: 10rem; */
+  margin-top: 0;
+  width: 65vw;
+  /* padding-right: 15em; */
+  /* padding-left: 15em; */
+}
+
+.content{
+  padding-left: 10em;
+  /* -right: 10em; */
+}
+
+.right{
+  width: 35vw;
+
+  /* margin-right: 10rem; */
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  margin: 0;
+}
+
+.ad{
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.AA{
+  padding: 0;
+  margin: 0;
+}
+
+.Foot{
+  background-color: var(--primary);
+  margin-bottom: 0;
+  height: 30rem;
+  width: 100%;
+}
