@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    min-height: 5vh;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    min-height: 5vh;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="debug">
+
+  <!-- ANCHOR Extra BS Things -->
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+
+  <!--ANCHOR NAV BAR-->
+  <header class="containter-fluid ">
+    <section class="row">
+      <div class="col-3">
+        <div><img class="Bottle"
+            src="https://cdn11.bigcommerce.com/s-ec3t5d56yg/images/stencil/1280x1280/products/162/494/CM_Bourbon_375ml__31456.1502451879.jpg?c=2"
+            alt="CrownMapleSyrup"></div>
+      </div>
+      <div class="col-6">
+        <div>Work</div>
+        <div>About</div>
+        <div>Expertise</div>
+        <div>Blog</div>
+        <div>Store</div>
+        <div>Contact</div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container-fluid">
+
+    <!--ANCHOR Crown Maple-->
+    <section class="row bg-danger">
+      <div class='col-4'>
+        <h1>Crown Maple</h1>
+        <h6>Not All Crowns Are Created Equal</h6>
+      </div>
+      <div class="col-4 ">
+        <img class="Bottle"
+          src="https://s3-eu-west-1.amazonaws.com/htsi-ez-prod/ez/images/1/6/3/7/77361-1-eng-GB/main_a7c03c92-6835-4934-b1e5-ff639a06f250.jpg"
+          alt="BottlesOfCrownSyrup">
+      </div>
+    </section>
+
+    <!--ANCHOR We are arists-->
+    <section class="row bg-dark">
+      <div class=" col-12 text-light">
+        <p>We are artists who specialize in branding and packaging design. We help brands present their stroies in ways
+          that are effective and honest, novel and established. <button class="bg-secondary text-dark">Learn
+            More</button></p>
+      </div>
+    </section>
+
+    <!--ANCHOR Pic Links-->
+    <section class="row bg-primary">
+      <div class="col-4">
+        <button><img class="picLink" src="https://coolbuzz.org/wp-content/uploads/2014/06/Blog-logo.jpg"
+            alt="Blog"></button>
+      </div>
+      <div class="col-4">
+        <button><img class="picLink" src="https://image.freepik.com/free-photo/abstract-office-desktop_155003-4104.jpg"
+            alt="Office"></button>
+      </div>
+      <div class="col-4">
+        <button><img class="picLink"
+            src="https://wholegrainscouncil.org/sites/default/files/thumbnails/image/15616367_ml-wheat-field.jpg"
+            alt="Wheat"></button>
+      </div>
+    </section>
+  </main>
+
+  <!--ANCHOR Bottom-->
+  <footer class="container-fluid">
+    <section class="row bg-dark text-light">
+      <div class="col-5">
+        <div><button class="bg-dark text-light">JOBS</button></div>
+        <div><button class="bg-dark text-light">STORE</button></div>
+        <div><button class="bg-dark text-light">TWITTER</button></div>
+        <div><button class="bg-dark text-light">FACEBOOK</button></div>
+      </div>
+      <div class="col-3">
+        <div>012.315.5270</div>
+        <div>hello@stdntxmpl.com</div>
+      </div>
+      <div class="col-3">
+        <div>3258 Minneihaha Ave.</div>
+        <div>Minneapolis, MS 55405</div>
+      </div>
+    </section>
+  </footer>
+
+</body>
+
+</html>
